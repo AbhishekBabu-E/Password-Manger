@@ -1,0 +1,171 @@
+.headCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.displayInputSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.searchLogo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.searchInput {
+  padding: 10px;
+  border: 0px;
+  border-left: 2px #94a3b8 solid;
+  width: 100%;
+}
+
+.hori {
+  width: 100%;
+  color: #94a3b8;
+}
+
+.checkboxCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.labeltext {
+  margin-left: 4px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.nopasswordsCont {
+  align-self: center;
+}
+
+.nopasswordHd {
+  text-align: center;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.passwordOptionCounterAndHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.counterCont {
+  border: 2px #7683cb solid;
+  text-align: center;
+  padding: 4px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.boxPass {
+  border: #b6c3ca solid 2px;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5px;
+}
+
+.FL {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: #14b8a6;
+  color: #f8fafc;
+  margin-bottom: 5px;
+  font-family: 'Bree Serif';
+  border: 0px;
+  font-size: 17px;
+  padding: 10px;
+  text-align: center;
+
+  font-weight: 700;
+}
+
+.webConthd {
+  color: #f8fafc;
+
+  font-family: 'Bree Serif';
+
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.userHdCont {
+  color: #f8fafc;
+
+  font-family: 'Bree Serif';
+
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.startsLogo {
+  width: 100px;
+  margin-top: 3px;
+  height: 30px;
+}
+
+.displaywupCont {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.deletelogo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.delbutt {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nopasswordsCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+}
