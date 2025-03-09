@@ -1,4 +1,4 @@
-In this project, let's build a **Password Manager** by applying the concepts we have learned till now.
+In this project, let's build a **Password Manager** 
 
 ### Refer to the image below:
 
